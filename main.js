@@ -25,8 +25,6 @@ var weight2 = ""
 function selectDisk() {
   var firstKid = $(this).find(">:first-child")
   weight1 = parseInt(firstKid.text())
-  console.log(weight1)
-  console.log(firstKid)
   if (firstKid.hasClass('clicked')) {
 
     firstKid.removeClass('clicked')
@@ -40,4 +38,3 @@ function selectDisk() {
 }
 
 
-function
