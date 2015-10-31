@@ -1,191 +1,38 @@
-body{
-  background-image: url("Towers_of_Hanoi_background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.tower {
+  height: 600px;
+  background-color: #FFDE12;
+  border: 3px solid #9639AD;
 }
 
-.container {
-  border-radius: 20px;
-  border: 1px solid #00F;
-  margin: 10px;
-  min-height: 50px;
-}
-
-#favorites {
-  border: 3px solid red;
-}
-
-#despised {
-  border: 3px solid green;
-}
-
-.tHContainer1 {
-  bottom: 0;
-  z-index: 1;
-  position: absolute;
-  /*text-align: center;*/
-  /*right: 50%;*/
-  /*left: 5%;*/
-  margin-left: 10%;
-}
-
-/*/*/*/*.tHContainer2 {
-  bottom: 0;
-  z-index: 1;
-  /*left: 20%;*/
-  /*position: relative;*/
-  /*position: absolute;*/
-  /*left: 30%;*/
-  /*text-align: center;*/
-/*}*/*/*/*/*/
-
-/*.tHContainer3 {
-  bottom: 0;
-  z-index: 1;
-  position: absolute;
-  /*left: 10%;*/
-  /*text-align: center;*/
-/*}*/*/
-
-.box.selected {
-  border: 5px solid #0F0;
-}
-
-.box {
-  padding-bottom: 20px;
+.disk {
   height: 50px;
+  background-color: #9639AD;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7px;
+  border: 3px solid #BEF600;
+}
+
+.disk.clicked {
+  border: 4px dashed white;
+}
+
+#p1 {
   width: 50px;
-  border: 1px solid #F00;
-  display: inline-block;
-  margin: 20px;
-}
-
-#box-1 {
   background-color: #FF2F7C;
-  /*position: absolute;*/
-  height: 55px;
-  width: 85px;
-  left: 50%;
-  /*right: 50%;*/
-  margin-left: 31%;
-  border-radius: 10px;
+  border-color: #9639AD;
 }
 
-#box-2 {
-  /*position: absolute;*/
+#p2{
+  width: 100px;
+  background-color: #BEF600;
+  border-color: #9639AD;
+
+}
+
+#p3{
+  width: 150px;
   background-color: #00ADBC;
-  height: 60px;
-  width: 150px;
-  margin-left: 20%;
-  border-radius: 10px;
-}
-
-#box-3 {
-  /*position: absolute;*/
-  background-color: #9639AD;
-  height: 70px;
-  width: 250px;
-  margin-left: 0%;
-  /*left: 5%;*/
-  border-radius: 10px;
+  border-color: #9639AD;
 
 }
-
-/*#box-1 {
-  background-color: #FF2F7C;
-  height: 55px;
-  width: 85px;
-  margin-left: 31%;
-}
-
-#box-2 {
-  background-color: #BEF600;
-  height: 60px;
-  width: 150px;
-  margin-left: 20%;
-}
-
-#box-3 {
-  background-color: #9639AD;
-  height: 70px;
-  width: 250px;
-  margin-left: 0%;
-}
-
-#box-1 {
-  background-color: #FF2F7C;
-  height: 55px;
-  width: 85px;
-  margin-left: 31%;
-}
-
-#box-2 {
-  background-color: #BEF600;
-  height: 60px;
-  width: 150px;
-  margin-left: 20%;
-}
-
-#box-3 {
-  background-color: #9639AD;
-  height: 70px;
-  width: 250px;
-  margin-left: 0%;
-}*/
-
-#pole-left {
-  background-color: #FFDE12;
-  margin: 40px;
-  height: 600px;
-  width: 40px;
-  left: 5%;
-  position: fixed;
-  margin-left: 20%;
-  /*left: 50%;*/
-  float: left;
-
-  border: 3px solid #00ADBC;
-  border-radius: 10px;
-  margin-top: 200px;
-  /*margin-right: 40px;*/
-  position: relative;
-  /*position: fixed;*/
-  z-index: -1;
-}
-
-#pole-middle {
-  background-color: #FFDE12;
-  height: 600px;
-  width: 40px;
-  margin-left: 25%;
-  left: 25%;
-  float: left;
-  border: 3px solid #00ADBC;
-  border-radius: 10px;
-  margin-top: 200px;
-  position: relative;
-
-  /*position: fixed;*/
-  z-index: -1;
-}
-
-#pole-right {
-  background-color: #FFDE12;
-  height: 600px;
-  width: 40px;
-  /*margin-left: 55%;*/
-  left: 50%;
-  float: left;
-  border: 3px solid #00ADBC;
-  border-radius: 10px;
-  margin-top: 200px;
-  /*position: fixed;*/
-  position: relative;
-
-  z-index: -1;
-}
-
-
-
-
-
