@@ -49,7 +49,7 @@ function decideWhatToDo(){
     // WIN
 
     if ($("#diskContainer3").children().length === 3) {
-      sweetAlert("Great job, you won!");
+      swal("Great job, you won!");
     };
 
 
