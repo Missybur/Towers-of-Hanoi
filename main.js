@@ -49,8 +49,7 @@ function decideWhatToDo(){
     // WIN
 
     if ($("#diskContainer3").children().length === 3) {
-      console.log("You won!")
-      alert("You won!");
+      sweetAlert("Great job, you won!");
     };
 
 
