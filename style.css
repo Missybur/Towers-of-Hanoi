@@ -1,107 +1,68 @@
 .tower {
   height: 450px;
-  background-color: #FFDE12;
+  background-color: #000000;
   border: 3px solid #9639AD;
-  display: inline-block;
-  /*position: relative;*/
 }
 
 #tower1 {
   height: 450px;
-  background-color: #FFDE12;
-  border: 3px solid #9639AD;
-  /*display: inline-block;*/
-  /*position: relative;*/
+  background-color: #01B0F0;
+  border: 4px solid  #FF358B;
 }
 
 #tower2 {
   height: 450px;
-  background-color: #FFDE12;
-  border: 3px solid #9639AD;
+  background-color: #BEF600;
+  border: 4px solid #FF358B;
   display: inline-block;
   position: relative;
 }
 
 #tower3 {
   height: 450px;
-  background-color: #FFDE12;
-  border: 3px solid #9639AD;
+  background-color: #01B0F0;
+  border: 4px solid #FF358B;
   display: inline-block;
   position: relative;
 }
 
 .diskContainer{
   bottom: 0;
-  /*position: absolute;*/
-  width: 150px;
-  height: 150px;
-  background-color: #FFDE12;
-  /*float: left;*/
-}
-
-#diskContainer1{
-  bottom: 0;
   position: absolute;
-  width: 150px;
-  height: 150px;
-  /*background-color: #FFDE12;*/
-  background-color: orange;
-
-  /*float: left;*/
-}
-
-#diskContainer2{
-  bottom: 0;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  /*background-color: #FFDE12;*/
-  background-color: orange;
-
-  /*float: left;*/
-}
-
-#diskContainer3{
-  bottom: 0;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  /*background-color: #FFDE12;*/
-  background-color: orange;
-
-  float: left;
+  left: 2vw;
+  right: 2vw;
+  /*left: 60px;*/
 }
 
 .disk {
   height: 50px;
-  background-color: #9639AD;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #01B0F0;
+  margin: 0 auto;
   border-radius: 7px;
   border: 3px solid #BEF600;
 }
 
 .disk.clicked {
-  border: 4px dashed white;
+  border: 2px dashed #01B0F0;
 }
 
 #p1 {
-  width: 50px;
-  background-color: #FF2F7C;
-  color: #FF2F7C;
-  border-color: #9639AD;
+  width: 5vw;
+  border-color:  #BEF600;
+  background-color: #FF358B;
+  color: #FF358B;
 }
 
 #p2{
-  width: 100px;
+  width: 10vw;
   background-color: #BEF600;
   color: #BEF600;
-  border-color: #9639AD;
+  border-color: #FF358B;
 }
 
 #p3{
-  width: 150px;
-  background-color: #00ADBC;
-  color: #00ADBC;
-  border-color: #9639AD;
+  width: 15vw;
+  background-color: #FF358B;
+  color: #FF358B;
+  border-color:  #BEF600;
 }
